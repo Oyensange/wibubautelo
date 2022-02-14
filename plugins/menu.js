@@ -13,68 +13,68 @@ const groups = chats.filter(v => v.jid.endsWith('g.us'))
  
 const defaultMenu = {
   before: `
-❏ *U S E R S*
-▸ *Name:* %name
-▸ *Tags:* %tag
-▸ *Premium:* %prems
-▸ *Age:* %age
-▸ *Limit:* %limit
-▸ *Money:* %money
-▸ *Role:* %role
-▸ *Level:* %level [%xp4levelup]
-▸ *Xp:* %exp / %maxexp
-▸ *Total Xp:* %totalexp
+〓〓〓〓〓 *U S E R S*
+➺ *Name:* %name
+➺ *Tags:* %tag
+➺ *Premium:* %prems
+➺ *Age:* %age
+➺ *Limit:* %limit
+➺ *Money:* %money
+➺ *Role:* %role
+➺ *Level:* %level [%xp4levelup]
+➺ *Xp:* %exp / %maxexp
+➺ *Total Xp:* %totalexp
 
-❏  *T O D A Y* 
-▸ ${ucapan()}
-▸ *Tanggal:* %week %weton, %date
-▸ *Tanggal Islam:* %dateIslamic
-▸ *Waktu:* %time
+〓〓〓〓〓  *T O D A Y* 
+➺ ${ucapan()}
+➺ *Tanggal:* %week %weton, %date
+➺ *Tanggal Islam:* %dateIslamic
+➺ *Waktu:* %time
 
-❏ *I N F O*
-▸ *Nama Bot:* %me
-▸ *Mode:* %mode
-▸ *Prefix:* [ %_p ]
-▸ *Platform:* %platform
-▸ *Merk Hp:* %merk
-▸ *Uptime:* %muptime
-▸ *Database:* %rtotalreg dari %totalreg
+〓〓〓〓〓 *I N F O*
+➺ *Nama Bot:* %me
+➺ *Mode:* %mode
+➺ *Prefix:* [ %_p ]
+➺ *Platform:* %platform
+➺ *Merk Hp:* %merk
+➺ *Uptime:* %muptime
+➺ *Database:* %rtotalreg dari %totalreg
 
-❏ *O F F I C I A L*
+〓〓〓〓〓 *O F F I C I A L*
 %waofc
 
-❏ *O W N E R*
-%ow
-
-❏ *TQ TO*
+〓〓〓〓〓 *A U T H O R*
 %tq
 
-❏ *M O D E R A T O R*
+〓〓〓〓〓 *O W N E R*
+%ow
+
+〓〓〓〓〓 *M O D E R A T O R*
 %nurt
 %mds
 %par4
 %mds2
 
-❏ *P A R T N E R*
+〓〓〓〓〓 *P A R T N E R*
 %par
 %par2
 %par3
 %admn
 %par6
 
-❏ *G I T H U B*
+〓〓〓〓〓 *G I T H U B*
 https://github.com/kannachann/kanna-wabot/
 
-❏ *I N S T A G R A M*
+〓〓〓〓〓 *I N S T A G R A M*
 https://instagram.com/ppiowy_
 
-❏ *INFO COMMAND*
+〓〓〓〓〓 *INFO COMMAND*
 ▸ *▱* = Free
 ▸ *▰* = Premium
 ▸ *□* = No Limit
 ▸ *■* = Limit
 
-*]────────── COMMAND ──────────[*
+*❊╌──┈⊰᯽⊱COMMAND⊰᯽⊱┈──╌❊*
                                        ▾
 `.trimStart(),
   header: '╭──────═[ *%category* ]═──────···\n┷',
@@ -91,7 +91,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
  m, { contextInfo: { mentionedJid: conn.parseMention(tag) }}
     let waofc = `@${'0'.split('@')[0]}`
  m, { contextInfo: { mentionedJid: conn.parseMention(tag) }}
- let ow = `@${'6281230926688'.split('@')[0]}`
+ let ow = `@${'6289638074455'.split('@')[0]}`
  m, { contextInfo: { mentionedJid: conn.parseMention(tag) }}
  let nurt = `@${'6281334177340'.split('@')[0]}`
  m, { contextInfo: { mentionedJid: conn.parseMention(tag) }}
@@ -99,19 +99,19 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
  m, { contextInfo: { mentionedJid: conn.parseMention(tag) }}
  let mds2 = `@${'62887435047326'.split('@')[0]}`
  m, { contextInfo: { mentionedJid: conn.parseMention(tag) }}
- let admn = `@${'6285704954639'.split('@')[0]}`
+ let admn = `@${'6282195470493'.split('@')[0]}`
  m, { contextInfo: { mentionedJid: conn.parseMention(tag) }}
-  let par = `@${'6288217277973'.split('@')[0]}`
+  let par = `@${'6281354079196'.split('@')[0]}`
  m, { contextInfo: { mentionedJid: conn.parseMention(tag) }}
- let par2 = `@${'62858929626673'.split('@')[0]}`
+ let par2 = `@${'6288286315319'.split('@')[0]}`
  m, { contextInfo: { mentionedJid: conn.parseMention(tag) }}
- let par3 = `@${'6283120398329'.split('@')[0]}`
+ let par3 = `@${'6289646737209'.split('@')[0]}`
  m, { contextInfo: { mentionedJid: conn.parseMention(tag) }}
- let par4 = `@${'6281319944687'.split('@')[0]}`
+ let par4 = `@${'6289638074455'.split('@')[0]}`
  m, { contextInfo: { mentionedJid: conn.parseMention(tag) }}
  let tq = `@${'62831433937633'.split('@')[0]}`
  m, { contextInfo: { mentionedJid: conn.parseMention(tag) }}
- let par6 = `@${'6285231651905'.split('@')[0]}`
+ let par6 = `@${'6282298952644'.split('@')[0]}`
  m, { contextInfo: { mentionedJid: conn.parseMention(tag) }}
  
 	let bzz = './audio/wibu.m4a'
@@ -289,7 +289,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
     const jamm = Math.floor( lebih % (1000 * 60 * 60 * 24) / (1000 * 60 * 60))
     const menitt = Math.floor( lebih % (1000 * 60 * 60) / (1000 * 60))
     const detikk = Math.floor( lebih % (1000 * 60) / 1000)
-    const ultah = new Date('October 4, 2022 23:59:59')
+    const ultah = new Date('august 5, 2022 23:59:59')
     const sekarat = new Date().getTime() 
     const Kurang = ultah - sekarat
     const ohari = Math.floor( Kurang / (1000 * 60 * 60 * 24));
@@ -392,31 +392,31 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
       }
     })
       
-    let txtmenu = `❏  *U S E R*
-▸ *Name:* ${name}
-▸ *Tag:* ${tag}
-▸ *Bio:* ${bioo ? bioo : ''}
-▸ *Status:* ${premium ? 'Premium' : 'Free'} User
-▸ *Limit:* ${global.db.data.users[m.sender].limit}
+    let txtmenu = `〓〓〓〓〓 *U S E R*
+➺ *Name:* ${name}
+➺ *Tag:* ${tag}
+➺ *Bio:* ${bioo ? bioo : ''}
+➺ *Status:* ${premium ? 'Premium' : 'Free'} User
+➺ *Limit:* ${global.db.data.users[m.sender].limit}
 
-❏ *I N F O*
-▸ *Runtime:* ${uptime}
-▸ *Baterai:* ${conn.battery != undefined ? `${conn.battery.value}% ${conn.battery.live ? '🔌 pengisian' : ''}` : 'tidak diketahui'}
-▸ *Prefix :* [ ${_p} ]
-▸ *Total User:* ${Object.keys(global.db.data.users).length}
-▸ *Jadibot:* ${totaljadibot.length}
-▸ *Blocked:* ${conn.blocklist.length}
-▸ *Chat Banned:* ${Object.entries(global.db.data.chats).filter(chat => chat[1].isBanned).length}
-▸ *User Banned:* ${Object.entries(global.db.data.users).filter(user => user[1].banned).length}
+〓〓〓〓〓 *I N F O*
+➺ *Runtime:* ${uptime}
+➺ *Baterai:* ${conn.battery != undefined ? `${conn.battery.value}% ${conn.battery.live ? '🔌 pengisian' : ''}` : 'tidak diketahui'}
+➺ *Prefix :* [ ${_p} ]
+➺ *Total User:* ${Object.keys(global.db.data.users).length}
+➺ *Jadibot:* ${totaljadibot.length}
+➺ *Blocked:* ${conn.blocklist.length}
+➺ *Chat Banned:* ${Object.entries(global.db.data.chats).filter(chat => chat[1].isBanned).length}
+➺ *User Banned:* ${Object.entries(global.db.data.users).filter(user => user[1].banned).length}
 
-❏ *TAHUN BARU*
-▸ ${jhari} Hari ${jjam} Jam ${mmmenit} Menit ${ddetik} Detik
+〓〓〓〓〓 *TAHUN BARU*
+➺ ${jhari} Hari ${jjam} Jam ${mmmenit} Menit ${ddetik} Detik
 
-❏ *RAMADHAN*
-▸ ${harii} Hari ${jamm} Jam ${menitt} Menit ${detikk} Detik
+〓〓〓〓〓 *RAMADHAN*
+➺ ${harii} Hari ${jamm} Jam ${menitt} Menit ${detikk} Detik
 
-❏ *ULANG TAHUN OWNER*
-▸ ${ohari} Hari ${ojam} Jam ${onet} Menit ${detek} Detik
+〓〓〓〓〓 *ULANG TAHUN OWNER*
+➺ ${ohari} Hari ${ojam} Jam ${onet} Menit ${detek} Detik
 
 ✧
 ┬ 📮 *Note* :
@@ -437,7 +437,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
                             {
                                 "rows": [{
                                          "title": "📊 〉 Status",
-                                         "description": "Status Kanna Bot",
+                                         "description": "Status Kocheng Bot",
                                          "rowId": ".botstat"
                                     }, {
                                          "title": "⚡ 〉 Speed",
@@ -722,11 +722,11 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
             "fileLength": "99999999999999",
             "pageCount": 100,
             "mediaKey": "XWv4hcnpGY51qEVSO9+e+q6LYqPR3DbtT4iqS9yKhkI=",
-            "fileName": 'Creαted by : ℓettα - sαmα ♡',
+            "fileName": '✿.｡.:*ҡǫςнɘηԍ Ьǫʈ*:.｡.✿',
             "fileEncSha256": "NI9ykWUcXKquea4BmH7GgzhMb3pAeqqwE+MTFbH/Wk8=",
             "directPath": "/v/t62.7118-24/35150115_287008086621545_8250021012380583765_n.enc?ccb=11-4&oh=6f0f730e5224c054969c276a6276a920&oe=61A21F46",
             "mediaKeyTimestamp": "1634472176",
-            "jpegThumbnail": await (await fetch('https://telegra.ph/file/6e45318d7c76f57e4a8bd.jpg')).buffer(),
+            "jpegThumbnail": await (await fetch(`${logopdf()}`)).buffer(),
   }}, 'buttonsMessage', { quoted: ftroli, contextInfo: { mentionedJid: conn.parseMention(text), forwardingScore: 999, isForwarded: true, externalAdReply: { title: global.wm, body: `${pickRandom(['udah makan belum kak?', 'udh mandi belum kak?', 'Semangat ya kak!', 'Jangan begadang mulu ya!', 'jangan spam ya kak!', 'Jangan lupa donasi yak kak! >.<', 'Jaga kesehatan yaw kak!', 'Jangan lupa makan!', 'Jangan lupa istirahat yak! >.<', 'I Love you kak >.< 💗✨', 'Pr nya udh belum kak?', 'Jangan kebanyakan main hp yk! nanti sakit :‹'])}`, description: `${pickRandom(['udah makan belum kak?', 'udh mandi belum kak?', 'Semangat ya kak!', 'Jangan begadang mulu ya!', 'jangan spam ya kak!', 'Jangan lupa donasi yak kak! >.<', 'Jaga kesehatan yaw kak!', 'Jangan lupa makan!', 'Jangan lupa istirahat yak! >.<', 'I Love you kak >.< 💗✨', 'Pr nya udh belum kak?', 'Jangan kebanyakan main hp yk! nanti sakit :‹'])}`, mediaType: 2, thumbnail: await (await fetch(`${logos()}`)).buffer(), mediaUrl: `https://youtube.com/watch?v=uIedYGN3NQQ`}}})
   
 //MENU 3BUTTON LOCATION
@@ -857,16 +857,33 @@ function logos() {
   const lgs = moment.tz('Asia/Jakarta').format('HH')
   res = "Selamat dinihari"
   if (lgs >= 4) {
-    imp = 'https://telegra.ph/file/5a882b8558fd1d2bd03fa.jpg'
+    imp = 'https://telegra.ph/file/d4cab83683334d706f843.jpg'
   }
   if (lgs > 10) {
-    imp = 'https://telegra.ph/file/f87047ec6e5f0d4a9ea91.jpg'
+    imp = 'https://telegra.ph/file/2c7f2aeeca69db8c5c3f1.jpg'
   }
   if (lgs >= 15) {
-    imp = 'https://telegra.ph/file/88edbb01051b397574def.jpg'
+    imp = 'https://telegra.ph/file/e2a15ff63abc0b23ad897.jpg'
   }
   if (lgs >= 18) {
-    imp = 'https://telegra.ph/file/7957630a57078c5ec0400.jpg'
+    imp = 'https://telegra.ph/file/6dff4cd386809acce6550.jpg'
+  }
+  return imp
+}
+function logopdf() {
+  const lgs = moment.tz('Asia/Jakarta').format('HH')
+  res = "Selamat dinihari"
+  if (lgs >= 4) {
+    imp = 'https://telegra.ph/file/0c82449e94f4020c02ccc.jpg'
+  }
+  if (lgs > 10) {
+    imp = 'https://telegra.ph/file/a828df50b300881c9195b.jpg'
+  }
+  if (lgs >= 15) {
+    imp = 'https://telegra.ph/file/0da5e9c5fc3a82dff15b9.jpg'
+  }
+  if (lgs >= 18) {
+    imp = 'https://telegra.ph/file/5f2b476e7c3cda55ab05e.jpg'
   }
   return imp
 }
