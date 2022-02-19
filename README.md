@@ -1,8 +1,9 @@
-# KANNABOTZ
- [![Kanna](https://telegra.ph/file/8c0c0d33c6129af67e9c1.jpg)
+# KOCHENGBOTZZZ
+ [![Kanna](https://telegra.ph/file/dc2aaca860c6a4ce24c3c.jpg)
  
-Simple WhatsApp Bot.   |    By Letta
-     |      [KannaBotz Whatsapp](https://wa.me/6283143393763)
+Simple WhatsApp Bot.   |    By Hafid/Jatim
+     |      [kocheng Whatsapp](https://wa.me/6281230926688)
+            [My Grup Whatsapp](https://chat.whatsapp.com/Fh0eaf7IuuG3i67wXRC1O8)
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/kannachann/kanna-wabot)
 
